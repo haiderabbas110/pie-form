@@ -1,0 +1,35 @@
+/* RTL Support */
+
+.rtl-active .pf-field-wrapper,
+.rtl-active,
+.rtl-active .pie-field label,
+.rtl-active .pie-field input[type=text],
+.rtl-active .pie-field input[type=url],
+.rtl-active .pie-field input[type=password],
+.rtl-active .pie-field input[type=search],
+.rtl-active .pie-field input[type=number],
+.rtl-active .pie-field input[type=tel],
+.rtl-active .pie-field input[type=date],
+.rtl-active .pie-field textarea,
+.rtl-active .pie-submit-container,
+.select2-results {
+    text-align: right;
+    direction: rtl;
+}
+
+.rtl-active .pie-field input[type=checkbox]+label,
+input[type=radio]+label {
+    margin-right: 20px;
+}
+
+.rtl-active .pie-field select {
+    direction: rtl;
+    border: var(--form--border-width) solid var(--form--border-color);
+    color: var(--form--color-text);
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    line-height: var(--global--line-height-body);
+    background: #fff url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' fill='%2328303d'><polygon points='0,0 10,0 5,5'/></svg>") no-repeat;
+    background-position: left var(--form--spacing-unit) top 60%;
+}

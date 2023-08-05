@@ -1,0 +1,324 @@
+/* ===== About Us ===== */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#wpbody-content{
+    padding-top: 79px;
+}
+.pie-forms-aboutus{
+    float: left;
+    width: 100%;
+    padding: 20px 30px 0 30px;
+    box-sizing: border-box;
+}
+#wpcontent{
+    padding-left:0px ;
+}
+.wrap.pie-forms {
+    margin: 0;
+}
+.pie-forms_page_pf-aboutus #wpcontent{
+    padding:0; 
+}
+.pf-nav-tab-wrapper{
+    padding: 0;
+    border:0;
+    background-color:#133950;
+    display: flex;
+    width:100%;
+    position: absolute;
+    top: 0;
+}
+.pf-nav-tab-wrapper a{
+    font-size:14px;
+    border: 0;
+    margin: 0;
+    padding: 20px 70px;
+    color:#f1f1f1;
+    background-color: transparent;
+    font-weight: bold;
+}
+.pf-nav-tab-wrapper a:hover{
+    border: 0;
+    background-color:#33586f;
+    color: #f1f1f1;
+}
+.wp-person a:focus .gravatar, a:focus, a:focus .media-icon img {
+    outline: none  !important;
+    box-shadow: none  !important;
+}
+.pf-admin.aboutus-page-admin *{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.pf-admin.aboutus-page-admin .about-pr-docs{
+    margin-top: 18px;
+}
+.pf-admin.aboutus-page-admin .about-pr-docs a {
+    margin-bottom: 16px;
+    display: block;
+}
+.pf-admin.aboutus-page-admin .about-pr-docs img{
+    width: 100%;
+}
+.pf-admin.aboutus-page-admin .pane{
+    margin: 10px 0px;
+    padding: 15px 30px;
+    background: #fff;
+    border: 1px solid #dddddd;
+}
+.pf-admin.aboutus-page-admin h3.welcome-to-pr{
+    font-size: 18px;
+    line-height: 32px;
+    color: #1a283a;
+    font-weight: 500;
+}
+.pf-admin.aboutus-page-admin p.about-us-p{
+    font-size: 18px;
+    color: #1a283a;
+    font-weight: 400;
+    margin: 0px;
+}
+.pf-admin.aboutus-page-admin ul.resourceful-links{
+    display: flex;
+    font-size: 16px;
+}
+.pf-admin.aboutus-page-admin ul.resourceful-links > li{
+    padding-right: 10px;
+}
+.pf-admin.aboutus-page-admin ul.resourceful-links > li:not(:first-of-type){
+    padding-left: 10px;
+}
+.pf-admin.aboutus-page-admin ul.resourceful-links > li:not(:last-of-type){
+    border-right: solid 1px #bc0511;
+}
+.pf-admin.aboutus-page-admin ul.resourceful-links > li > a, .pf-admin.aboutus-page-admin a.red-anchor{
+    color: #bc0511;
+    font-size: 17px;
+}
+.pf-admin.aboutus-page-admin .content-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pf-admin.aboutus-page-admin .about-content{
+    width: 55%;
+    padding-right: 5%;
+}
+.pf-admin.aboutus-page-admin .about-links{
+    width: 45%;
+}
+.pf-admin.aboutus-page-admin .genetech-resource{
+    padding: 6% 0px;
+}
+.about-pr-video iframe{
+    border-radius: 6px;
+}
+.pf-admin.aboutus-page-admin .pieform-sib-products{
+    padding: 0 30px;
+}
+.pf-admin.aboutus-page-admin .sib-product-container{
+    padding: 0 10px;
+    float: left;
+    width: 33.333333%;
+    margin-bottom: 20px;
+}
+.pf-admin.aboutus-page-admin .pieform-sib-products .sib-products{
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.pf-admin.aboutus-page-admin .sib-product{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin: 0;
+}
+.pf-admin.aboutus-page-admin .sib-product-detail{
+    height: 163px;
+    padding: 20px;
+}
+.pf-admin.aboutus-page-admin .sib-product-action{
+    display: flex;
+    align-items: center;
+    background-color: #f7f7f7;
+    border-top: 1px solid #ddd;
+    padding: 20px;
+    min-height: 75px;
+    position: relative;
+}
+.pf-admin.aboutus-page-admin .sib-product-detail img{
+    padding: 10px;
+    border: 1px solid #eee;
+    float: left;
+    max-width: 75px;
+}
+.pf-admin.aboutus-page-admin .sib-product-detail h5{
+    margin: 0 0 10px 100px;
+    font-size: 16px;
+}
+.pf-admin.aboutus-page-admin .sib-product-detail p{
+    margin: 0 0 0 100px;
+}
+.pf-admin.aboutus-page-admin .product-status{
+    flex-grow: 1;
+}
+.pf-admin.aboutus-page-admin .status-label{
+    font-weight: 600;
+}
+.pf-admin.aboutus-page-admin .status-active{
+    color: green;
+}
+.pf-admin.aboutus-page-admin .status-label.status-inactive{
+    color: red;
+}
+span.select2-container.select2-container--default.select2-container--open{
+	z-index:999999999;
+}
+.woo_addons {
+    margin-top: 50px;
+    width: 100%;
+}
+.woo_addons .woo_heading {
+    font-size: 1.75em;
+}
+.woo_addons .woo_woocommerce {
+    margin-bottom: 50px !important;
+    display: flex;
+}
+.woo_addons .woo_banner_1 {
+    background-color: #216ca4;
+}
+.woo_addons .woo_banner_2 {
+    background-color: #9a5b8f;
+}
+.woo_addons .woo_section {
+    display: flex;
+    justify-content: right;
+    padding: 60px 80px;
+    align-items: center;
+    position: relative;
+}
+.woo_addons .woo_section .woo_card_woocommerce img , .woo_addons .woo_section .woo_card_addons img{
+    width: 85%;
+}
+.woo_addons .woo_section .woo_card_woocommerce , .woo_addons .woo_section .woo_card_addons{
+    margin-right: 20px;
+}
+.woo_addons h2.heading {
+    /* font-size: 35px; */
+    margin-bottom: 15px !important;
+}
+.woo_addons .woo_text > h2 ,.woo_addons p {
+    color: #fff;
+    margin-top: 0 !important;
+}
+.woo_addons p.woo_para {
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+.woo_addons .woo_btn a {
+    font-size: 18px;
+    padding: 11px 25px;
+    background-color: #fff;
+    color: #333333;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.woo_addons .woo_btn a:hover {
+    background: white;
+    color: #333333;
+}
+/* .woo_addons .woo_card_addons{
+    background-image: url(./images/web_addons.png);
+    width: 190px;
+    height: 144px;
+    margin: 0 50px 0 0;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+/* .woo_addons .woo_card_woocommerce{
+    background-image: url(./images/woocommerce.png);
+    width: 157px;
+    height: 180px;
+    margin: 0 50px 0 0;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+.woo_card_moneyback {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 25px 35px;
+    text-align: right;
+}
+.woo_card_moneyback img{
+    width: 70%;
+}
+ul.ui-tabs-nav.ui-corner-all.ui-helper-reset.ui-helper-clearfix.ui-widget-header {
+    display: flex;
+    background: #0073aa;
+}
+div#tabs > ul > li {
+    margin: 0px;
+}
+div#tabs > ul > li.ui-tabs-active > a{
+    margin: 0px;
+    background-color: #379fcb;
+}
+div#tabs > ul > li > a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 18px 30px;
+    background: #0073aa;
+    display: inline-block;
+    font-weight: 500;
+}
+.pf-nav-tab-wrapper a.tab_aboutus {
+    background: url(../images/aboutus/about-us.png) no-repeat 28px center;
+}
+.pf-nav-tab-wrapper a.nav-tab-active {
+    background-color: #33586f;
+}
+div#custom-post-type{
+    display: flex;
+    flex-wrap: wrap;
+}
+.more-elements{
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-size: 18px;
+}
+#wpfooter{
+    position: relative !important;
+}
+@media (max-width:1398px) and (min-width:980px){
+    .pf-admin.aboutus-page-admin .sib-product-container{
+        width: 50%;
+    }
+}
+@media (max-width:980px){
+    .pf-admin.aboutus-page-admin .about-links{
+        width: 100%;
+        margin-top: 8%;
+    }
+    .pf-admin.aboutus-page-admin .about-content{
+        width: 100%;
+    }
+    .pf-admin.aboutus-page-admin .sib-product-container{
+        width: 100%;
+    }
+}
+@media (max-width:460px){
+    .pf-admin.aboutus-page-admin ul.resourceful-links{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:430px){
+    .pf-admin.aboutus-page-admin ul.resourceful-links{
+        flex-wrap: wrap;
+    }
+}

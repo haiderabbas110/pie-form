@@ -1,0 +1,103 @@
+.pie-forms_page_pf-marketing #wpcontent{
+    padding:0; 
+ }
+ .pf-nav-tab-wrapper{
+     padding: 0;
+     border:0;
+     background-color:#133950;
+     display: flex;
+     width:100%;
+ }
+ .pf-nav-tab-wrapper a{
+     font-size:14px;
+     border: 0;
+     margin: 0;
+     padding: 20px 70px;
+     color:#f1f1f1;
+     background-color: transparent;
+     font-weight: bold;
+ }
+ .pie-forms-marketing .marketing-page-heading{
+     color:#133950;
+     font-size:24px;
+     font-weight:bold;
+ }
+ .pie-forms-marketing > h2{
+     color:#133950;
+     font-size:14px;
+     border-bottom: 2px solid #dadee1;
+     padding-bottom: 30px;;
+ }
+ .pf-nav-tab-wrapper a:active{
+     background-color: #183950;
+ }
+ .pf-nav-tab-wrapper a:focus{
+     background-color: #183950 !important;
+     color: white  !important;
+ }
+ 
+ .pf-nav-tab-wrapper a.tab_mailchimp{
+     background: url('../images/marketing/mailchimp_icon_marketing.png') no-repeat 18px center;
+ }
+
+ .pf-nav-tab-wrapper a.tab_activecampaign{
+    background: url('../images/marketing/activecampaign_icon_marketing.png') no-repeat 18px center;
+}
+
+ .pf-nav-tab-wrapper a:hover{
+     border: 0;
+     background-color:#33586f;
+     color: #f1f1f1;
+ }
+ .pf-nav-tab-wrapper a.nav-tab-active{
+     background-color:#33586f;
+ }
+ .pie-forms_page_pf-marketing .wrap.pie-forms{
+     margin:0;
+ }
+ .pie-forms_page_pf-marketing .wrap.pie-forms > form {
+     float: left;
+     width: 100%;
+ }
+ .pie-forms-marketing{
+     float: left;
+     width: 100%;
+     padding: 20px 30px 0 30px;
+     box-sizing: border-box;
+ }
+ .pie-forms-marketing .submit .pie-forms-btn{
+     border: 0;
+     background: #dd0000;
+     cursor: pointer;
+     padding: 10px 20px;
+     color: #fff;
+     font-size: 14px;
+     border-radius: 30px;
+     font-weight: bold;
+ 
+ }
+ .pie-forms-marketing .form-table .titledesc > label{
+     font-weight: bold;
+     font-size:15px;
+     color:#133950;
+ }
+ .pie-forms-marketing .form-table .forminp-text > input{
+     background-color: #f6f6f6;
+     border:1px solid #dadee1;
+     padding:5px 10px;
+     max-width: 500px;
+     width: 100%;
+ }
+ #general .titledesc{
+     width: 0px;
+     padding: 0px;
+ }
+ /* .pf-activate-plugin-notice a {
+    color: #183950;
+    font-size: 20px;
+} */
+
+.pf-activate-plugin-notice {
+    font-size: 21px;
+    margin: 0px 25px;
+}

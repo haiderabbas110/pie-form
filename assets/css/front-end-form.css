@@ -1,0 +1,234 @@
+/* DEFAULT LAYOUT - ONE COLUMN*/
+
+.pf-container .pf-field-row .pf-field-wrapper {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+/* TWO COLUMN LAYOUT */
+
+.pf-container.two-column .pf-field-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pf-container.two-column .pf-field-row .pf-field-wrapper {
+    width: 48%;
+    margin-right: 20px;
+}
+
+.pf-container.two-column .pf-field-row .pf-field-wrapper:nth-child(2n+2) {
+    margin-right: 0;
+}
+
+
+/* HONEYPOT HIDE */
+
+.pf-honeypot-container {
+    display: none!important;
+    position: absolute!important;
+    left: -9000px!important;
+}
+
+
+/* RADIO BUTTON */
+
+.pf-container .pf-field-row .pf-field-wrapper .choices-ul {
+    margin: 0;
+}
+
+.pf-container .pf-field-row .pf-field-wrapper .choices-ul li {
+    list-style: none;
+    display: flex;
+}
+
+
+/* FIELDS */
+
+.pf-container .pf-field-row .pf-field-wrapper input:not([type=checkbox]):not([type=radio]),
+.pf-container .pf-field-row .pf-field-wrapper select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.pf-container .pf-field-row .pf-field-wrapper textarea {
+    width: 100%;
+    height: 100px;
+}
+
+.pf-container .pf-field-row .pf-field-wrapper .pie-field-description {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.pf-container .pf-field-row .pf-field-wrapper .pie-field-description.pie-field-description-before {
+    margin-bottom: 5px;
+}
+
+
+/* ERROR FIELD VALIDATION */
+
+.pie-field.pie-got-error input,
+.pie-field.pie-got-error textarea,
+.pie-field.pie-got-error .select2-container--default .select2-selection--multiple {
+    border: 1px solid red;
+}
+
+.pie-error {
+    color: red;
+}
+
+.pie-forms-notice.pie-forms-notice--error {
+    text-align: center;
+    color: red;
+    border: 1px solid red;
+    padding: 5px 10px;
+    margin-bottom: 30px;
+}
+
+
+/* SUCCESS MESSAGE */
+
+.pie-forms .pf-success-msg {
+    background: green;
+    color: #fff;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 40px;
+}
+
+.pf-container .pie-recaptcha-container {
+    margin-bottom: 20px;
+}
+
+.grecaptcha-badge {
+    visibility: visible !important;
+}
+
+
+/* LABEL */
+
+.pf-field-wrapper .pie-field-label.pie-label-hide {
+    display: none;
+}
+
+
+/* MULTISELECT */
+
+.select2-results__option {
+    font-size: 15px;
+    padding: 6px;
+    user-select: none;
+    -webkit-user-select: none;
+    margin: 0px;
+}
+
+.select2-container .select2-selection--multiple .select2-selection__rendered {
+    margin: 0;
+}
+
+.select2-container .select2-search--inline .select2-search__field {
+    padding: 0px !important;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__display {
+    font-size: 18px;
+}
+
+
+/* SEARCH SELECT */
+
+.select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    height: 40px !important;
+    display: flex !important;
+    align-items: center;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 6px !important;
+}
+
+
+/* GDPR */
+
+.pie-field-gdpr-consent {
+    display: flex;
+}
+
+/* Payment single field */
+.pie-field-payment-single .currency{
+    margin-right: 5px;
+}
+
+/* Submission message in Popup  */
+.jconfirm-pieforms-submission-popup .pf-success-msg {
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+    color: #133950;
+}
+.jconfirm-pieforms-submission-popup .jconfirm-box div.jconfirm-closeIcon {
+    font-size: 40px!important;
+    margin: 5px 10px;
+}
+.jconfirm-pieforms-submission-popup .pf-success-check{
+    margin: 0px auto 25px;
+}
+.jconfirm-pieforms-submission-popup  .jconfirm-content {
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.pie-submit-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* checkout field */
+
+.pie-forms-field-row-creditcard {
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: calc(100% - 5px);
+    /* display: inline-block; */
+}
+
+.pie-forms-field-row-cvv {
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: calc(100% - 5px);
+}
+  
+.exp-date-main {
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: calc(100% - 5px);
+    display: inline-block;
+}
+
+.pie-forms-field-checkout {
+    display: grid !important;
+}
+
+.exp-date{
+    display: flex;
+}
+
+.pie-forms-field-row-exp_month , .pie-forms-field-row-exp_year {
+    margin: 5px 5px 5px 0px;
+    width: calc(15% - 5px);
+}
+
+.pie-forms-field-row-exp_month > select , .pie-forms-field-row-exp_year > select {
+        background-color: #ffffff;
+        color: #666;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+  }

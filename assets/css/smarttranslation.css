@@ -1,0 +1,62 @@
+.pie-smarttranslation * {
+    font-family: inherit;
+}
+.wrap{
+    margin: 0;
+    padding: 0px 0px;
+}
+div#wpcontent{
+    padding: 0;
+}
+h1.pf-heading-inline {
+    color: #133950;
+    font-size: 24px;
+    font-weight: 600;
+    border-bottom: 2px solid #dadee1;
+    padding-bottom: 30px;
+    margin: 30px 0px 0px 0px;
+    
+}
+.pie-forms-smarttranslation {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 30px 0 30px;
+}
+.smarttranslation-page-heading{
+    font-size: 14px !important;
+    border: 0;
+    margin: 0 !important;
+    padding: 20px 70px !important;
+    color: #f1f1f1;
+    background-color: transparent;
+    font-weight: bold !important;
+    border: 0;
+    background: url(../images/smart-auto-translation.png) no-repeat 25px center;
+    display: flex;
+}
+.smarttranslation-page-heading-icon {
+    background-color: #133950;
+}
+.pie-forms-smarttranslation .form-table .titledesc > label{
+    font-weight: bold;
+    font-size:15px;
+    color:#133950;
+}
+.pie-forms-smarttranslation .form-table .forminp-text > input{
+    background-color: #f6f6f6;
+    border:1px solid #dadee1;
+    padding:5px 10px;
+    max-width: 500px;
+    width: 100%;
+}
+td.forminp.forminp-radio {
+    padding-top: 0;
+}
+#wpfooter {
+    position: relative;
+}
+.pf-activate-plugin-notice {
+    font-size: 21px;
+    margin: 0px 15px;
+}

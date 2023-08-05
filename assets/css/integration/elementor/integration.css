@@ -1,0 +1,49 @@
+.pieforms-elementor.pieforms-elementor-form-selector{
+    text-align: center;
+    padding: 25px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #71D7F7;
+    box-sizing: border-box;
+}
+.pieforms-elementor.pieforms-elementor-form-selector svg{
+    width: 75px;
+    height: 75px;
+    color: #dd0000;
+}
+.pieforms-elementor.pieforms-elementor-form-selector .elementor-placeholder{
+    color: #23282d;
+    font-size: 1em;
+    font-weight: 600;
+}
+#elementor-editor-wrapper .icon-pieforms, .elementor-edit-area .icon-pieforms {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    background-image: url("../../../images/elementor/pie-forms-logo.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+#elementor-editor-wrapper .elementor-element:hover .icon-pieforms, .elementor-edit-area .elementor-element:hover .icon-pieforms {
+    color: #93003c;
+}
+label.pie-field-label {
+    display: block;
+    width: 100%;
+}
+input {
+    display: block;
+}
+/* #elementor-editor-wrapper .elementor-widget-empty-icon.icon-pieforms, .elementor-edit-area .elementor-widget-empty-icon.icon-pieforms {
+    margin: 10px auto;
+    filter: grayscale(1) !important;
+    opacity: 0.5;
+    width: 22px;
+}
+#elementor-editor-wrapper .elementor-navigator__item .icon-pieforms, .elementor-edit-area .elementor-navigator__item .icon-pieforms {
+    width: 11px;
+    height: 11px;
+} */
+/* #elementor-editor-wrapper .elementor-navigator__item.elementor-editing .icon-pieforms, .elementor-edit-area .elementor-navigator__item.elementor-editing .icon-pieforms {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(14deg) brightness(102%) contrast(104%);
+} */

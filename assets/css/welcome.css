@@ -1,0 +1,276 @@
+
+#pieforms-welcome *,
+#pieforms-welcome *::before,
+#pieforms-welcome *::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#pieforms-welcome {
+  padding-top: 45px;
+}
+
+#pieforms-welcome .container {
+  padding: 0;
+  background: #F5FDFF;
+  margin: 0px 50px;
+}
+
+#pieforms-welcome .block {
+  padding: 20px 20px;
+}
+
+#pieforms-welcome .block .welcome-pr-video {
+  text-align: center;
+  width: 833px;
+  height: 441px;
+  margin: auto;
+  max-width: 100%;
+}
+
+#pieforms-welcome .block .welcome-pr-video iframe{
+  border-radius: 25px;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+}
+
+#pieforms-welcome .block-white {
+  background-color: #fff;
+}
+
+#pieforms-welcome .resourceful-link {
+  margin-bottom: 50px;
+  background-color: white;
+  display: inline-block;
+  margin: 20px;
+  cursor: pointer;
+}
+
+#pieforms-welcome .resourceful-link a {
+  text-decoration: none;
+}
+
+#pieforms-welcome .resourceful-link a:focus{
+  box-shadow: none;
+}
+
+#pieforms-welcome .resourceful-link h6{
+  padding-top: 15px;
+  color: #213B50;
+  font-weight: 600;
+}
+
+#pieforms-welcome .resourceful-links-list {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#pieforms-welcome .features .feature-list {
+  margin-top: 30px;
+  width: 100%;
+  float: left;
+  padding-left: 40px;
+
+}
+
+#pieforms-welcome .resourceful-link-image {
+  background-color: #fff;
+  border-color: #C42625!important;
+  border-style: solid!important;
+  width: 120px;
+  height: 120px;
+  display: inline-block;
+  border-radius: 100%;
+  padding: 20px;
+  text-align: center;
+  border: 2px;
+}
+
+#pieforms-welcome .resourceful-link-image img{
+  padding-top: 8px;
+}
+
+#pieforms-welcome .resourceful-links {
+  float: left;
+  width: 100%;
+}
+#pieforms-welcome h1 {
+  font-weight: 600;
+  color: #213B50;
+  font-size: 28px;
+  padding: 20px 0px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+#pieforms-welcome h5 {
+  color: #222;
+  font-size: 16px;
+  margin: 0 0 8px 0;
+  line-height: 40px;
+}
+
+#pieforms-welcome h6 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: center;
+  margin: 0;
+}
+
+#pieforms-welcome h6.welcome-msg {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  color: #213B50;
+}
+
+#pieforms-welcome p {
+  font-size: 14px;
+  margin: 0 0 20px 0;
+}
+
+#pieforms-welcome .button-wrap {
+  max-width: 590px;
+  text-align: center;
+  width: 100%;
+  float: left;
+  margin: auto;
+
+}
+
+.pieforms-btn-red {
+  background-color: #C42625;
+  border-color: #C42625;
+  color: #fff;
+}
+
+.pieforms-btn-red:hover, .pieforms-btn-red:focus {
+  background-color: #C42625;
+  border-color: #C42625;
+  color: #fff;
+}
+
+.pieforms-btn-white {
+  background-color: #fff;
+  border-color: #C42625;
+  color: #C42625;
+}
+
+.pieforms-btn-white:hover, .pieforms-btn-white:focus {
+  background-color: #f0f0f1;
+  border-color: #3e4344;
+  color: #3e4344;
+}
+
+.pieforms-btn-block {
+  width: 250px;
+  border: 1px;
+  border-style: solid;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  box-shadow: none;
+  font-size: 17px;
+  font-weight: 700;
+  padding: 8px 12px;
+  min-height: 35px;
+  line-height: 30px;
+}
+
+#pieforms-welcome .button-wrap .left {
+  float: left;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}  
+
+#pieforms-welcome .intro .get-started-btns {
+  display: flex;
+}
+#pieforms-welcome .intro {
+  position: relative;
+  padding-top: 40px;
+  width: 100%;
+  float: left;
+  background-color: #F5FDFF;
+}
+
+#pieforms-welcome .intro .pie-forms-logo {
+  padding: 18px 14px 0 14px;
+  position: relative;
+  text-align: center;
+}
+
+#pieforms-welcome .intro .pie-forms-logo img{
+  width: 24%;
+}
+
+#pieforms-welcome .features {
+  background-color: #F5FDFF;
+  border-bottom: 0;
+  width: 100%;
+  float: left;
+}
+
+#pieforms-welcome .features .feature-block {
+  float: left;
+  width: 30%;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+#pieforms-welcome .features .block-features {
+  margin-top: 20px;
+  width: 100%;
+  float: left;
+}
+#pieforms-welcome .features .feature-block img {
+  float: left;
+  width: 100%;
+}
+
+#pieforms-welcome .features .feature-block .feature-block-icon {
+  float: left;
+  padding: 8px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  margin-right: 10px;
+  width: 50px;
+  height: 45px;
+}
+
+#pieforms-welcome .features .feature-block .feature-block-content {
+  float: left;
+  width: 65%;
+}
+
+#pieforms-welcome .features .button-wrap {
+  margin-bottom: 0px ;
+}
+
+.ytp-endscreen-content {
+  display: none;
+}
+
+/*
+	*	Media Quries
+*/
+@media (max-width: 1200px) {
+	#pieforms-welcome .features .feature-block{width:28%;}
+}
+@media (max-width: 1190px) {
+	#pieforms-welcome .features .feature-block{width:26%;}
+}
+@media (max-width: 855px) {
+	#pieforms-welcome .features .feature-block{width:24%;}
+}

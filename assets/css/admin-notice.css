@@ -1,0 +1,102 @@
+.pieform-notice-slider{
+    padding: 10px 13px;
+}
+.pieform-notice {
+    display: flex !important;
+    padding: 12px 10px 22px;
+    flex-wrap: wrap !important;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-left-width: 4px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+    position: relative;
+}
+.pieform-notice.notice-warning {
+    border-left-color: #dba617;
+}
+.pieform-notice.notice-info {
+    border-left-color: #72aee6;
+}
+.pieform-notice.notice-success {
+    border-left-color: #00a32a;
+}
+.pieform-notice.notice-error {
+    border-left-color: #d63638;
+}
+.pieform-notice .buttons a {
+    padding: 6px 14px;
+    display: inline-block;
+    background: #1688b8;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #1688b8;
+}
+.pieform-notice .image {
+    margin-top: 12px;
+    width: 6%;
+    margin: 10px;
+    margin-bottom: 0;
+}
+.pieform-notice .image > img{
+    width: 100%;
+}
+.pieform-notice .content {
+    width: calc(90% - 40px);
+    margin-left: 20px;
+}
+.pieform-notice .content h2{
+    margin-bottom: 0px;
+}
+.pieform-notice .buttons {
+    margin-top: 17px;
+}
+.pieform-notice .buttons .cta-2 {
+    background: #f3f5f6;
+    color: black;
+    border: 1px solid #1688b8;
+}
+.pieform-notice-slider .slick-prev.slick-arrow , .slick-next.slick-arrow {
+    background: #ffffff;
+    border-radius: 3px;
+    width: 40px;
+    height: 40px;
+    bottom: 24px;
+    position: absolute;
+    z-index: 99;
+    text-indent: -9999px;
+    border: 1px solid #7e8993;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+.pieform-notice-slider .slick-prev.slick-arrow {
+    right: 80px;
+}
+.pieform-notice-slider .slick-next.slick-arrow {
+    right: 33px;
+   }
+.pieform-notice-slider .slick-prev.slick-arrow:focus , .pieform-notice-slider .slick-next.slick-arrow:focus{
+    outline: none;
+}
+.pieform-notice-slider .slick-prev.slick-arrow:after{
+    font-family: 'FontAwesome';
+    content: "\f104";
+    display: inline-block;
+    font-size: 15px;
+    width: inherit;
+    position: absolute;
+    left: -1px;
+    text-indent: 0;
+}
+.pieform-notice-slider .slick-next.slick-arrow:after{
+    font-family: 'FontAwesome';
+    content: "\f105";
+    display: inline-block;
+    font-size: 15px;
+    width: inherit;
+    position: absolute;
+    left: -1px;
+    text-indent: 0;
+}

@@ -1,0 +1,137 @@
+#pf-modal-wrap {
+	display: none;
+	background-color: #fff;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, .3);
+	width: 500px;
+	height: 200px;
+	overflow: hidden;
+	margin-left: -250px;
+	margin-top: -125px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index: 100105;
+	-webkit-transition: height .2s, margin-top .2s;
+	transition: height .2s, margin-top .2s
+}
+
+#pf-modal-wrap #pf-modal {
+	height: 100%;
+	position: relative
+}
+
+#pf-modal-wrap #pf-modal #pf-modal-title {
+	background: #fcfcfc;
+	border-bottom: 1px solid #dfdfdf;
+	height: 36px;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 36px;
+	padding: 0 36px 0 16px;
+	top: 0;
+	right: 0;
+	left: 0
+}
+
+#pf-modal-wrap #pf-modal #pf-modal-close {
+	color: #666;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 36px;
+	height: 36px;
+	text-align: center;
+	background: 0 0;
+	border: none;
+	cursor: pointer
+}
+
+#pf-modal-wrap #pf-modal #pf-modal-close:focus,
+#pf-modal-wrap #pf-modal #pf-modal-close:hover {
+	color: #dd0000;
+}
+
+#pf-modal-wrap #pf-modal #pf-modal-close:focus {
+	outline: 0;
+	box-shadow: 0 0 0 1px #dd0000, 0 0 2px 1px rgba(30, 140, 190, .8)
+}
+
+#pf-modal-wrap #pf-modal #pf-modal-close::before {
+	content: '\f158';
+	font: normal 20px/36px dashicons;
+	vertical-align: top;
+	speak: none;
+	width: 36px;
+	height: 36px
+}
+
+#pf-modal-wrap #pf-modal #pf-modal-inner {
+	padding: 0 16px 50px
+}
+
+#pf-modal-wrap #pf-modal #pf-modal-inner #pf-modal-notice {
+	padding: 10px;
+	color: #31708f;
+	background-color: #d9edf7;
+	border: 1px solid #bce8f1
+}
+
+#pf-modal-wrap #pf-modal #pf-modal-inner #pf-modal-options {
+	padding: 8px 0 12px
+}
+
+#pf-modal-wrap #pf-modal #pf-modal-inner #pf-modal-options .pf-modal-inline {
+	margin: 0;
+	padding: 0 20px 0 0;
+	display: inline-block
+}
+
+#pf-modal-wrap #pf-modal #pf-modal-inner #pf-modal-options #pf-modal-select-form {
+    max-width: 100%;
+    margin-bottom: 1em;
+    width: 100%;
+    padding: 4px 10px;
+}
+
+#pf-modal-wrap #pf-modal .submitbox {
+	padding: 8px 16px;
+	background: #fcfcfc;
+	border-top: 1px solid #dfdfdf;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0
+}
+
+#pf-modal-wrap #pf-modal .submitbox #pf-modal-cancel {
+	float: left;
+	line-height: 25px
+}
+
+#pf-modal-wrap #pf-modal .submitbox #pf-modal-update {
+	float: right;
+	line-height: 23px
+}
+
+#pf-modal-wrap #pf-modal .submitbox #pf-modal-update #pf-modal-submit {
+	float: right;
+	margin-bottom: 0
+}
+
+#pf-modal-backdrop {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	min-height: 360px;
+	background: #000;
+	opacity: .7;
+	z-index: 100100
+}
+.wp-media-buttons .pf-insert-form-button span.wp-media-buttons-icon{
+    vertical-align: inherit;
+    margin-top: 3px;
+}

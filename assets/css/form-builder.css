@@ -1,0 +1,1000 @@
+ul li{
+  list-style: none;
+}
+a:focus{
+  box-shadow: none;
+}
+.pie-builder-main{
+    position: fixed;
+    width: 100%;
+    height:100%;
+    z-index: 999999;
+    background: #fff;
+    top:0;
+    bottom: 0;
+    left:0;
+}
+.pie-builder-main .pie-header{
+  background-color: #133950;
+  display: flex;
+  width: 100%;
+}
+.pie-builder-main .header-left {
+  width: calc(100% - 550px);
+  display: flex;
+  align-items: center;
+}
+.pie-builder-main .pie-center-nav{
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: flex-end;
+}
+.pie-header .logo{
+  padding-left: 60px;
+  width: 30%;
+}
+.pie-header .center{
+  margin-left: 40px;
+}
+.pie-builder-main .pie-right-nav {
+  display: flex;
+  align-items: center;
+}
+.pie-builder-main .pie-form-right .pie-form-field-wrapper-choices .pie-forms-attachment-media-view{
+  display: none; 
+}
+.pie-builder-main .pie-center-nav li{
+  margin-right: 3%; 
+  position: relative;
+}
+.pie-forms-field-option-wrapper .pie-form-field-wrapper-choices input.value{
+  display: none;
+}
+.pie-forms-field-option-wrapper .pie-form-field-wrapper-choices .pf-choices-list{
+  margin-top: 20px;
+}
+.pie-forms-field-option-wrapper .pie-form-field-wrapper-choices .pf-choices-list li {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.pie-forms-field-option-wrapper .pie-form-field-wrapper-choices .pf-choices-list li .pf-choice-list-input{
+    flex: 1;
+    margin: 0 10px;
+}
+.pie-forms-field-option-wrapper .pie-form-field-wrapper-choices .pf-choices-list li .sort {
+    margin-right: 10px;
+    cursor: grab;
+}
+.pie-forms-field-option-wrapper .pie-form-field-wrapper-choices .pf-choices-list li > a {
+  text-decoration: none;
+  color: #dd0000;
+}
+.pie-builder-main .pie-center-nav li.shortcode input{
+  color:#133950;
+  cursor: pointer;
+  width: 216px;
+  padding: 0px 15px;
+  background-color: white;
+}
+.copy-icon {
+  background: #FFF url(../images/shortcode-icon.png) 90% no-repeat;
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  position: absolute;
+  right: 7px;
+  top: 0;
+  margin: 6px 8px;
+  cursor: pointer;
+}
+.pie-builder-main .pie-right-nav li a {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  display:flex;
+  align-items: center;
+  height: 70px;
+}
+.pie-builder-main .pie-right-nav li.settings a{
+  background: url(../images/setting.png) no-repeat 50px center;
+  padding: 0 45px 0 87px;
+}
+.pie-builder-main .right {
+  max-width: 550px;
+}
+.pie-builder-main .pie-right-nav li.form-fields a{
+  background: url(../images/builder/form-fields-icon.png) no-repeat 50px center;
+  padding: 0 85px;
+}
+.pie-builder-main .pie-right-nav li.close a{
+  background: #dd0000 url(../images/close.png) no-repeat center;
+    width: 80px;
+    display: block;
+}
+.pie-builder-main .pie-right-nav li.form-fields.active a{
+  background-image: url(../images/builder/form-fields.png);
+}
+.pie-builder-main .pie-right-nav li.settings.active a{
+  background-image: url(../images/builder/settings.png);
+}
+.pie-builder-main .pie-right-nav li.active a{
+  background-color: #ffffff;
+  color: #133950;
+}
+.pie-builder-main .pie-center-nav li.save button, .pie-builder-main .pie-center-nav li.preview a{
+  border-radius: 20px;
+  border: 1px solid #fff;
+  padding: 8px 30px;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  background: none;
+  cursor: pointer;
+}
+.pie-forms-btn.pie-forms-save-button {
+  background-color: #dd0000 !important;
+  border: none !important;
+}
+.pie-builder-main .pie-center-nav li.save button:focus {
+  outline: 0;
+}
+.pie-section-main .pie-form-main-wrapper{
+  width: 100%;
+  display: flex;
+  height: calc(100vh - 70px);
+}
+.pie-section-main > #settings{
+  display: none;
+}
+.pie-form-left{
+  width: calc(100% - 550px);
+  position: relative;
+  box-sizing: border-box;
+  padding: 0px 0px 39px 60px;
+  background-color: #f0f2f5;
+}
+.pie-form-left.processing{
+  overflow-y: hidden;
+}
+.pie-form-left.processing:before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background: #6f6a6a52;
+    bottom: 0;
+    content: "";
+    z-index: 9;
+}
+.pie-form-left > .spinner {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+.pie-form-left .pie-forms-field-radio .widefat.primary-input li, 
+.pie-form-left .pie-forms-field-checkbox .widefat.primary-input li{
+  margin-top: 20px;
+  line-height: normal;
+}
+.pie-form-left .pie-forms-field-radio .widefat.primary-input li input {
+    margin-right: 10px;
+}
+
+.pie-form-left .pie-form-element{
+  width:100%;
+  position: relative;
+  padding-right: 60px;
+  box-sizing: border-box;
+  height:100%;
+}
+.pie-form-left .pie-form-element .field-main-wrapper{
+  height:calc(100% - 89px);
+  border: 1px dotted #1339503b;
+  padding:20px;
+  box-sizing: border-box;
+  position: relative;
+}
+.pie-form-left .pie-form-element .field-main-wrapper:after{
+  content: url(../images/builder/plus.png) "\A\A\A Drag options here...";
+  white-space: pre;
+  font-size: 20px;
+  font-weight: bold;
+  color: #d1d5db;;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+.pie-form-left .pie-form-element .field-main-wrapper.has-fields:after{
+  display: none;
+}
+.pie-form-left .pie-form-element .go-back{
+  color:#133950;
+  font-size:14px;
+  background:url('../images/builder/back-btn.png') no-repeat left center;
+  padding-left: 30px;
+  cursor:pointer;
+  margin-bottom: 30px;
+  display: block;
+}
+.pie-form-element .pie-forms-field{
+  padding:20px 0;
+  position: relative;
+  cursor: move;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+}
+.pie-form-element .pie-forms-field.active {
+  padding: 20px 20px;
+  background: #ffffff;
+  transition: 0.5s all ease;
+}
+.pie-form-element .pie-forms-field.active .edit-delete-wrapper {
+  display: block;
+}
+
+.pie-form-element li{
+  list-style: none;
+  width:100%;
+}
+.pie-form-element > div.ui-draggable-handle{
+      display: flex;
+    align-items: center;
+    border: 1px dotted;
+    padding: 20px 10px;
+}
+.pie-form-element > div.ui-draggable-handle span.pie-form-icon {
+    margin-right: 13px;
+}
+.edit-delete-wrapper {
+  position: absolute;
+  right: 0;
+  top: -50px;
+  transition: 0.3s all ease;
+}
+.pie-form-element .pie-forms-field:hover .edit-delete-wrapper {
+  top: 0;
+}
+.edit-delete-wrapper span {
+  width: 40px;
+  height: 27px;
+  display: inline-block;
+  cursor: pointer;
+}
+.edit-delete-wrapper span.edit {
+  background: #133950 url('../images/builder/edit.png') no-repeat center;
+}
+.edit-delete-wrapper span.delete {
+  background: #dd0000 url('../images/builder/delete.png') no-repeat center;
+}
+.edit-delete-wrapper span.duplicate {
+  background: #d0e1eb url('../images/builder/clone-icon.png') no-repeat center;
+}
+.pie-form-element > div select, 
+.pie-form-element > div input[type=text], 
+.pie-form-element > div input[type=email],
+.pie-form-element > div input[type=url],
+.pie-form-element > div input[type=number],
+.pie-form-element > div input[type=tel],
+.pie-form-element > div textarea
+{
+  border:1px dotted #899ca7 !important;
+  padding:8px 10px;
+  opacity: 1;
+}
+.pie-form-element > div.pie-forms-title-desc{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pie-form-element > div.pie-forms-title-desc input[type=text]{
+  background-color: #f0f2f5;
+  border: 0 !important;
+  box-shadow: none;
+  font-size:36px;
+  font-weight:bold;
+  color:#133950;
+  height: auto;
+  line-height: normal;
+  padding: 0;
+  margin: 30px 10px 30px 0;
+  border: 1px solid transparent !important;
+  max-width:700px;
+}
+.pie-form-element > div.pie-forms-title-desc .pf-edit-icon{
+  background: url('../images/builder/edit-icon.png') no-repeat;
+  width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.pie-form-element > div.pie-forms-title-desc input[type=text].pie-forms-name-editing {
+  border: 1px dotted #899ca7 !important;
+  padding-left: 10px;
+ 
+}
+.pie-form-element > div textarea{
+  height: 100px;
+}
+.pie-form-element > div select{
+    width: 100%;
+    display: block;
+    max-width: 100%;
+    background-color: #fff !important;
+}
+.pie-form-element > div.one-column input[type=text]{
+  width:100%;
+}
+.pie-form-right{
+  max-width: 550px;
+  background-color: #fcfcfc; 
+  width: 100%;
+}
+.pie-tab-setting{
+  margin-bottom: 30px;
+  box-shadow: 0px 14px 19px #8080801a;
+}
+.pie-tab-setting ul{
+  display: flex;
+  background: #ffffff;
+}
+.pie-tab-setting ul li{
+  color: #133950;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 20px 10px;
+    width: 50%;
+    text-align: center;
+    border-bottom: 1px solid #eef1f2;
+    cursor: pointer;
+    transition: 0.7s all ease;
+}
+.pie-tab-setting ul li.active{
+  border-bottom: 2px solid #133950;
+  color:#dd0000;
+}
+.pie-form-accordian-fields{
+  padding: 0;
+  height: calc(100vh - 160px);
+  position: relative;
+}
+/* Search fields start */
+.pie-form-accordian-fields div#tab-add-fields .search-bar{
+  margin: 0 0 30px 0;
+  position: relative;
+}
+
+.pie-form-accordian-fields div#tab-add-fields .search-bar:after{
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f002";
+  position: absolute;
+  top: 10px;
+  right: 18px;
+}
+
+.pie-form-accordian-fields div#tab-add-fields .search-bar input{
+  width: 100%;
+  padding: 2px 10px;
+  border: 1px solid #e4e8ea;
+  box-shadow: none;
+}
+.pie-form-accordian-fields div#tab-add-fields .search-bar input:focus{
+  border:1px solid #133950;
+}
+/* Search fields end */
+.pie-form-accordian-fields div#tab-add-fields,
+.pie-form-accordian-fields div#tab-field-options{
+  padding:0 20px;
+}
+.pie-form-accordian-fields .mCSB_container{margin-right: 0;}
+.pie-form-accordian-fields div#tab-field-options{
+  display: none;
+}
+.pie-form-accordian-fields div#tab-add-fields{
+  display: block;
+}
+.pie-form-accordian-fields .fields-elements > ul > li{
+  margin-bottom: 20px;
+}
+.accordian-settings{
+  height: calc(100vh - 70px);
+  position: relative;
+}
+.pie-form-accordian-fields .fields-elements > ul > li > span, 
+.pie-form-accordian-settings .setting-tab .pf-panel-tab{
+  font-size: 16px;
+  color: #133950;
+  font-weight: bold;
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid #e4e8ea;
+  padding: 0 0 20px 0;
+  position: relative;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.pie-builder-main .pie-form-right .add-fields > li .pie-form-fields{
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.pie-builder-main .pie-form-right .add-fields > li .pie-form-fields > li,
+.pie-form-element > li, .pie-form-element-box{
+  border: 1px solid #e4e8ea;
+    height: 135px;
+    width: calc(calc(100% / 3) - 30px);
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s all ease;
+}
+.pie-builder-main .pie-form-right .add-fields > li .pie-form-fields > li.name .pie-form-label {
+  margin-right: 10px;
+}
+.pie-form-right .pie-form-element-box{
+  position: relative;
+  z-index: 9;
+  width: 160px;
+}
+.pie-form-right .pie-form-element-box.upgrade-modal , .pie-form-right .pie-form-element-box.upgrade-to-addon, .pie-form-right .pie-form-element-box.upgrade-to-addon-payment{
+  opacity: 0.45;
+}
+
+.pie-form-element > li{
+  list-style: none;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.pie-builder-main .pie-form-right .add-fields > li .pie-form-fields > li:hover {
+  box-shadow: 0px 10px 11px #80808021; 
+}
+.pie-builder-main .pie-form-right .add-fields > li .pie-form-fields > li:nth-child(3n+3) {
+  margin-right: 0;
+}
+ul.pie-form-fields > li span.pie-form-label{
+  margin-top: 10px;
+  color:#133950;
+  font-size:12px;
+}
+.pie-form-left .ui-state-highlight {
+  float: left;
+  background-color: #effff2;
+  height: 50px;
+  width: 100%;
+  border: 1px solid #a2ceab;
+  margin-bottom: 20px;
+}
+
+.pie-forms-field-option-group {
+  margin-bottom: 30px;
+}
+.pie-forms-field-option-group-advanced .pie-forms-field-option-group-inner{
+  display: none;
+}
+.pie-forms-field-option-wrapper {
+  margin-top:20px;
+}
+.pie-forms-field-option-wrapper .pie-form-field-wrapper{
+  margin-bottom: 15px;
+}
+.pie-forms-builder #adminmenumain, .pie-forms-builder #wpfooter {
+  display: none;
+}
+
+.pie-form-element .pie-forms-panel-field > label, 
+.pie-form-left .pie-forms-field .price-container,
+.pie-form-left .pie-forms-field .label-title{
+  margin-bottom: 5px;
+  font-weight: 500;
+  display: block;
+  width: 100%;
+}
+.pie-forms-panel-field.pie-forms-panel-field-radio .pie-form-smart-tag-parent{
+  display: block;
+}
+.pie-forms-panel-field.pie-forms-panel-field-radio .pie-form-smart-tag-parent .row{
+  display: block;
+}
+.pie-form-left .pie-forms-field .price-container .currency{
+  margin-right: 5px;
+}
+.pie-form-element .pie-forms-field .description {
+  margin-top: 7px;
+  font-size: 12px;  
+  order: 2;
+}
+.pie-form-element .pie-forms-field .widefat {
+  order: 1;
+}
+.pie-forms-field.pie-forms-field-gdpr .widefat {
+  margin-top: 1px;
+}
+.pie-forms-field.pie-forms-field-gdpr label.pie-gdpr-label {
+  order: 1;
+}
+.pie-form-element .pie-forms-field .description.position-before {
+  order: 0;
+  width: 100%;
+  margin-bottom: 8px;
+}
+.pie-forms-field-option-wrapper .pie-form-field-wrapper.pie-forms-hidden{
+  display: none;
+}
+.pie-form-left .pie-forms-field.label_hide .label-title {
+    display: none;
+}
+.pie-form-left .pie-forms-field .price-container.hidden {
+  display: none;
+}
+.pie-form-left .pie-forms-field.required .label-title .required {
+  display: inline-block;
+}
+.pie-form-left .pie-forms-field .label-title .required {
+  display: none;
+}
+.pie-forms-field-option-wrapper .pie-form-field-wrapper label{
+  width: 100%;
+  display: block;
+  color: #2b2b2b;
+  font-weight: bold;
+  font-size: 12px;
+  margin:0 0 10px 0;
+}
+.pie-forms-help-tooltip{
+  position: relative;
+  z-index: 99999999;
+}
+.tooltip-hover {
+  background: #133950;
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  width: 150px;
+  position: absolute;
+  text-align: center;
+  padding: 10px 10px;
+  font-family: arial;
+  line-height: 15px;
+  border-radius: 10px;
+  left: -50px;
+  top: 28px;
+  display: none;
+  z-index: 9;
+}
+.pie-forms-help-tooltip:hover .tooltip-hover{
+  display: block;
+}
+.tooltip-hover:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #133950;
+  position: absolute;
+  top: -8px;
+  left: 55px;
+}
+.pie-forms-field-option-wrapper .pie-form-field-wrapper input[type=text],
+.pie-forms-field-option-wrapper .pie-form-field-wrapper textarea,
+.pie-forms-field-option-wrapper .pie-form-field-wrapper select, 
+.pie-forms-field-option-wrapper .pie-form-field-wrapper input[type=number] {
+  width: 100%;
+  padding:7px 10px;
+  border:1px solid #e5e8eb;
+  max-width:100%;
+  
+}
+.pie-form-field-wrapper-custom_regex{
+  display: none;
+}
+.pie-form-field-wrapper-custom_validation_message{
+  display: none;
+}
+.pie-forms-field-option-wrapper .pie-form-field-wrapper input[type=number] {
+  margin-bottom: 20px;
+}
+.pie-forms-field-option-wrapper .pie-form-field-wrapper input:focus,
+.pie-forms-field-option-wrapper .pie-form-field-wrapper textarea:focus{
+  border:1px solid #133950;
+  box-shadow: none;
+  background-color: #fff;
+}
+.pie-forms-field-option-wrapper .pie-form-field-wrapper.pie-form-field-wrapper-meta-key input:focus{
+  background-color:#eee;
+}
+.pie-forms-field-option-wrapper .pie-form-field-wrapper textarea{
+  height: 70px;
+  resize: none;
+}
+.pie-forms-field-option-wrapper .pie-form-field-wrapper.checkbox label {
+  width: auto;
+  margin: 0;
+  line-height: normal;
+}
+.pie-forms-field-option-wrapper .pie-form-field-wrapper input[type=checkbox] {
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+.pie-forms-field-option-wrapper .pie-forms-field-option-group-toggle{
+  font-size: 16px;
+  font-weight: bold;
+  color: #133950;
+  margin-bottom: 15px;
+  display: block;
+  text-decoration: none;
+  border-bottom: 1px solid #e4e8ea;
+  padding-bottom: 15px;
+  position: relative;
+  
+}
+.pie-forms-field-option-wrapper .pie-forms-field-option-group-toggle:after, 
+.pie-form-accordian-fields .fields-elements > ul > li > span:after,
+.pie-form-accordian-settings .setting-tab .pf-panel-tab:after {
+  content: "";
+  background: url(../images/builder/arrow.png) no-repeat 0 0;
+  height: 6px;
+  width: 11px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  transform: rotate(180deg);
+}
+.pie-form-accordian-fields .fields-elements > ul > li.active > span:after{
+  transform: rotate(0deg);
+}
+.pie-forms-field-option-wrapper .pie-forms-field-option-group-toggle.active:after {
+  transform: rotate(0deg);
+}
+.pie-forms-field-option-wrapper .pie-forms-field-option-group-toggle:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.pie-form-accordian-settings .setting-tab .pf-panel-tab{
+  padding:20px 20px 20px 50px;
+  text-decoration: none;
+
+}
+.pie-form-accordian-settings .setting-tab .pf-panel-tab.active {
+    color: #dd0000;
+}
+.pie-form-accordian-settings .setting-tab .pf-panel-tab:after{
+    left: 19px;
+    top: 28px;
+    transform: rotate(0deg);
+
+}
+.pie-form-accordian-settings .setting-tab .pf-panel-tab:after{
+  left: 19px;
+  top: 28px;
+  transform: rotate(180deg);
+
+}
+.pie-form-accordian-settings .setting-tab .pf-panel-tab.active:after{
+  transform: rotate(0deg);
+}
+
+.pie-form-accordian-settings .setting-tab .pie-forms-active-email {
+  display: none;
+}
+
+.pie-form-element .pie-forms-panel-field{
+    padding:20px 0;
+}
+.pie-form-element .pie-forms-panel-field#pie-forms-panel-field-settings-enable_title-wrap,
+.pie-form-element .pie-forms-panel-field#pie-forms-panel-field-settings-enable_description-wrap {
+  padding: 0;
+}
+.pie-form-element .pf-content-section-title {
+    color: #133950;
+    font-size: 16px;
+    font-weight: bold;
+}
+.pie-form-element div.pf-content-section{
+  cursor: auto;
+  /* height: 60vh; */
+  padding: 0 30px;
+  position: relative;
+} 
+.pie-form-element .tab-accordian .pf-content-section {
+  display: none;
+}
+.pie-form-element .pf-content-limit-settings{
+  display: none;
+}
+/* JCONFIRM - popup default */
+div.jconfirm.jconfirm-modern .jconfirm-box div.jconfirm-content-pane .jconfirm-content {
+  overflow: initial;
+}
+div.jconfirm.jconfirm-modern .jconfirm-box div.jconfirm-title-c .jconfirm-icon-c .dashicons {
+  height: inherit;
+  width: inherit;
+  font-size: 60px;
+}
+div.jconfirm *, div.jconfirm ::after, div.jconfirm ::before {
+  box-sizing: border-box;
+}
+
+.copied-wrap{
+  display:none;
+  position: absolute;
+  top: 3px;
+  background-color: #fff;
+  padding: 3px 10px;
+  border-radius: 8px 0 0 8px;
+  left: -78px;
+}
+.copied-wrap:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 10px solid #fff;
+  position: absolute;
+  right: -10px;
+  top: 5px;
+}
+.pie-form-left .pie-forms-field .label-title.hide-label{
+  display: none;
+}
+.pie-preview-save {
+    position: fixed;
+    bottom: 0;
+    left: 10px;
+}
+.preview-button > a {
+  margin-bottom: 14px;
+  background: url(../images/builder/preview.png) no-repeat;
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+.save-button{
+  background: url(../images/builder/save.png) no-repeat  !important;;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 18px;
+  display: block;
+  border-radius: 100px;
+} 
+.pie-builder-main .pie-center-nav li.save button{
+  background-color: #dd0000 !important;
+  border: none;
+  padding: 10px 30px;
+}
+button.save-button.pie-forms-btn.pie-forms-save-button.icon-save-button{
+  background-color: transparent ;
+  cursor: pointer;
+}
+button.save-button.pie-forms-btn.pie-forms-save-button.icon-save-button:focus{
+  outline: 0;
+}
+.pie-forms-hidden {
+  display: none;
+}
+.pie-forms-panel-field .pf-smart-tag-lists{
+  right: 38px;
+  z-index: 1;
+  max-height: 162px;
+  margin-top: 46px;
+  width: 230px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: absolute;
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #cdd0d8;
+  box-shadow: 1px 3px 20px 0 rgba(35,40,45,.2);
+  display: none;
+}
+.pie-forms-panel-field .pf-smart-tag-lists .smart-tag-title {
+  font-weight: 600;
+  background: #f6f7f9;
+  border-bottom: 1px solid #cdd0d8;
+}
+.pie-forms-panel-field .pf-smart-tag-lists .smart-tag-title,.pie-forms-panel-field .pf-smart-tag-lists  li{
+  padding: 7px 10px;  
+}
+.pie-forms-panel-field .pf-smart-tag-lists  li{
+  cursor: pointer;
+  margin-bottom: 0;
+}
+.pie-forms-panel-field .pf-toggle-smart-tag-display{
+  text-decoration: none;
+  color: #133950;
+  border: 1px dotted #899ca7 !important;
+  padding: 12px;
+  border-radius: 4px;
+  margin: 0px 8px;
+  height: fit-content;
+}
+.pie-form-smart-tag-parent{
+  display: flex;
+}
+.pf-smart-tag-lists.ScrollBar.ps-container.ps-theme-default.ps-active-x .ps-scrollbar-x-rail {
+  display: none;
+}
+.btn-confirm:hover{
+  background-color: #bdc3c7;
+  color: #000;
+}
+span.jconfirm-title {
+  line-height: 1.25;
+}
+.jconfirm-closeIcon{
+  display: none !important;
+}
+/*Toggle icon */
+.pie-form-field-wrapper  span.pie-forms-toggle-icon.pie-forms-on i {
+  color: #143850;
+}
+.pie-form-field-wrapper  span.pie-forms-toggle-icon i {
+  color: #aaa;
+  font-size: 24px;
+  vertical-align: middle;
+  margin-right: 6px;
+  height: 22px;
+  cursor: pointer;
+}
+.pie-form-field-wrapper  .pie-forms-toggle-icon-label {
+  text-transform: uppercase;
+  vertical-align: middle;
+  font-weight: 600;
+  cursor: pointer;
+}
+.pie-form-field-wrapper   span.pie-forms-toggle-icon input {
+ display: none;
+}
+
+.pie-forms-field.pie-forms-field-multipart{
+  display: block;
+
+}
+.pie-forms-field-option .pie-forms-color-picker{
+  height: 30px;
+  padding-left: 30px !important;
+}
+.minicolors-position-left .minicolors-panel{
+  z-index: 999999999 !important;
+}
+.pie-forms-field-option.pie-forms-field-option-phone .pie-form-field-wrapper-custom_regex, 
+.pie-forms-field-option.pie-forms-field-option-phone .pie-form-field-wrapper-custom_validation_message {
+  display: block ;
+}
+.pie-forms-field-option-wrapper .pie-forms-field-option.pie-forms-field-option-payment-multiple .pie-form-field-wrapper-choices input.value{
+  margin: 0 0 0 5px;
+  width: 21%;
+  display: inline-block;
+}
+.pie-forms-field-option-wrapper .pie-forms-field-option.pie-forms-field-option-payment-multiple .pie-form-field-wrapper input[type=text]{
+  width: 70%;
+}
+#pie-forms-panel-field-settings-enable_message_popup-wrap .hidden{
+  display: none;
+}
+.pie-forms-panel-field.pie-forms-panel-field-iconpicker .icon-preview > span{
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  background: #133950;
+  text-align: center;
+  font-size: 0px;
+  line-height: 55px;
+  color: #ffffff;
+  border: 1px solid #133950;
+  justify-content: center;
+  align-items: center;
+}
+.pie-forms-panel-field.pie-forms-panel-field-iconpicker .icon-preview > span:before{
+  font-size: 30px;
+}
+.pie-forms-panel-field.pie-forms-panel-field-iconpicker .select-icon-button {
+  cursor: pointer;
+  color: #133950;
+  height: fit-content;
+  background: #fcfcfc;
+  padding: 7px 10px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 4px;
+  border: 2px solid #133950;
+  margin-right: 11px;
+}
+
+
+/* multiselect select 2 css */
+.select2-container{
+  z-index: 999999;
+  width: 100% !important;
+}
+.select2-container .select2-selection--single{
+  height: 45px;
+  border: 1px dotted #a6b4bd !important;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+  width: fit-content;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice__display{
+  cursor: default;
+  padding-left: 2px;
+  padding-right: 5px;
+  display: inline-block;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+
+
+
+/* checkout field */
+.pie-forms-field-row.pie-forms-creditcard{
+  margin-right: 10px;
+  width: calc(100% - 5px);
+  display: inline-block;
+  padding: 10px 0px;
+}
+
+.pie-forms-field-row.pie-forms-creditcard > .pie-field-creditcard , .pie-forms-field-row.pie-forms-cvv > .pie-field-cvv , .pie-forms-field-row.pie-forms-exp-date > .exp-date{
+  margin: 20px 0px;
+}
+
+.pie-forms-field-row.pie-forms-creditcard > .pie-forms-sub-label , .pie-forms-field-row.pie-forms-cvv > .pie-forms-sub-label , .pie-forms-field-row.pie-forms-exp-date > .pie-forms-sub-label{
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.pie-forms-field-row.pie-forms-cvv{
+  margin-right: 10px;
+  width: calc(100% - 5px);
+  display: inline-block;
+}
+
+.pie-forms-field-row.pie-forms-exp-date{
+  margin-right: 10px;
+  width: calc(100% - 5px);
+  display: inline-block;
+}
+
+.pie-forms-field-checkout{
+  display: grid !important;
+}
+
+.pie-forms-field-row.pie-forms-exp-date > .exp-date{
+  display: flex;
+}
+
+#authorize_year , #authorize_month{
+  background: rgba(255,255,255,.5) !important;
+  /* border-color: rgba(220,220,222,.75) !important; */
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.04) !important;
+  color: rgba(44,51,56,.5) !important;
+  margin: 5px 5px 5px 0px;
+}
+
+

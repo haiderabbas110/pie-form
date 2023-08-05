@@ -1,0 +1,60 @@
+table.wp-list-table .column-enabled {
+    width: 25px;
+}
+.pie-forms-toggle-form{
+    width: 28px;
+    height: 16px;
+    float: left;
+    margin-top: 3px;
+    margin-right: 4px;
+    position: relative;
+}
+.pie-forms-toggle-form input[type=checkbox]{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+    z-index: 1;
+}
+.pie-forms-toggle-form .slider{
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-transition: .4s;
+    transition: .4s;
+    background-color: #cdd0d2;
+}
+.pie-forms-toggle-form .slider.round{
+    border-radius: 16px;
+}
+.pie-forms-toggle-form input[type=checkbox]:checked+.slider{
+    background-color: #17b932;
+}
+
+
+.pie-forms-toggle-form .slider::before{
+    content: '';
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    left: 2px;
+    bottom: 2px;
+    -webkit-transition: .4s;
+    transition: .4s;
+    background-color: #fff;
+}
+.pie-forms-toggle-form .slider.round::before{
+    border-radius: 50%;
+}
+.pie-forms-toggle-form input[type=checkbox]:checked+.slider::before{
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+}
+.subsubsub li a{
+    text-transform: capitalize;
+}

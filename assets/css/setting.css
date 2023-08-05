@@ -1,0 +1,186 @@
+.pie-forms_page_pf-settings #wpcontent{
+    padding:0; 
+ }
+ .wrap.pie-forms{
+    margin: 0px;
+}
+#wpcontent {
+    padding-left: 0px;
+}
+ .pf-nav-tab-wrapper{
+     padding: 0;
+     border:0;
+     background-color:#133950;
+     display: flex;
+     width:100%;
+ }
+ .pf-nav-tab-wrapper a{
+     font-size:14px;
+     border: 0;
+     margin: 0;
+     padding: 20px 70px;
+     color:#f1f1f1;
+     background-color: transparent;
+     font-weight: bold;
+ }
+ .pie-forms-settings .setting-page-heading{
+     color:#133950;
+     font-size:24px;
+     font-weight:bold;
+ }
+ .pie-forms-settings > h2{
+     color:#133950;
+     font-size:14px;
+     border-bottom: 2px solid #dadee1;
+     padding-bottom: 30px;;
+ }
+ .pf-nav-tab-wrapper a:active{
+     background-color: #183950;
+ }
+ .pf-nav-tab-wrapper a:focus{
+     background-color: #183950 !important;
+     color: white  !important;
+ }
+ /* .pf-nav-tab-wrapper a.nav-tab.tab_recaptcha {
+     order: 2;
+ }
+ .pf-nav-tab-wrapper a.nav-tab.tab_validation {
+     order: 4;
+ }
+ .pf-nav-tab-wrapper a.nav-tab.nav-tab-active.tab_general {
+     order: 1;
+ }
+ .pf-nav-tab-wrapper a.nav-tab.tab_email {
+     order: 5;
+ } */
+ .pf-nav-tab-wrapper a.tab_currency{
+    background: url('../images/settings/currency_icon_setting.png') no-repeat 25px center;   
+ }
+ .pf-nav-tab-wrapper a.tab_recaptcha{
+     background: url('../images/settings/captcha_icon_setting.png') no-repeat 35px center;
+ }
+ .pf-nav-tab-wrapper a.tab_validation{
+     background: url('../images/settings/validation_icon_setting.png') no-repeat 25px 17px;
+ }
+ .pf-nav-tab-wrapper a.tab_email{
+     background: url('../images/settings/email_icon_setting.png') no-repeat 25px center;
+ }
+ .pf-nav-tab-wrapper a.tab_licence{
+    background: url('../images/settings/license.png') no-repeat 35px center;
+ }
+ .pf-nav-tab-wrapper a.tab_general{
+     background: url('../images/settings/general_icon_setting.png') no-repeat 25px center;
+ }
+ .pf-nav-tab-wrapper a.tab_integrations{
+     background: url('../images/settings/integration.png') no-repeat 25px center;
+ }
+ .pf-nav-tab-wrapper a:hover{
+     border: 0;
+     background-color:#33586f;
+     color: #f1f1f1;
+ }
+ .pf-nav-tab-wrapper a.nav-tab-active{
+     background-color:#33586f;
+ }
+ .pie-forms_page_pf-settings .wrap.pie-forms{
+     margin:0;
+ }
+ .pie-forms_page_pf-settings .wrap.pie-forms > form {
+     float: left;
+     width: 100%;
+ }
+ .pie-forms-settings{
+     float: left;
+     width: 100%;
+     padding: 20px 30px 0 30px;
+     box-sizing: border-box;
+ }
+ .pie-forms-settings .pie-forms-btn{
+     border: 0;
+     background: #dd0000;
+     cursor: pointer;
+     padding: 10px 20px;
+     color: #fff;
+     font-size: 14px;
+     border-radius: 30px;
+     font-weight: bold;
+ 
+ }
+ .pie-forms-settings .form-table .titledesc > label{
+     font-weight: bold;
+     font-size:15px;
+     color:#133950;
+ }
+ .pie-forms-settings .form-table .forminp-text > input, .pie-forms-settings .form-table .forminp-image > input, .pie-forms-settings .form-table .forminp-color input{
+     background-color: #f6f6f6;
+     border:1px solid #dadee1;
+     padding:5px 10px;
+     max-width: 500px;
+     width: 100%;
+ }
+ #general .titledesc{
+     width: 0px;
+     padding: 0px;
+ }
+ .notice.pie-message{
+    padding: 10px 12px;
+ }
+ .pie-forms-hidden {
+    display: none;
+  }
+ .pie-forms-visible {
+    display: table-row;
+  }
+  .pie-forms-upgrade{
+    font-size: 16px;
+    color: #bc0511;
+    font-weight: 600;
+  }
+  .pie-forms-settings .form-table .forminp-image > img{
+    display: block;
+    margin: 0 0 20px 0;
+    max-width: 400px;
+  }
+  .pie-forms-settings .form-table .forminp-color .minicolors-input-swatch{
+    top: 7px;
+    left: 7px;
+    height: 21px;
+    width: 21px;
+    border-radius: 2px;
+  }
+  .pie-forms-settings .form-table .forminp-color input{
+      padding-left: 40px;
+      min-height: 35px;
+  }
+  .pie-forms-settings .form-table .forminp-color .minicolors-theme-default.minicolors{
+      width: 100%;
+  }
+  .pie-forms-settings .form-table .forminp-tinymce .wp-editor-container{
+    max-width: 500px;
+  }
+  .pie-forms-settings .form-table .forminp-image .pform-btn-upload-grey{
+    background-color: #133950a6;
+    border: 1px solid #ccc;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px 12px;
+    min-height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .pie-forms-settings .form-table .forminp-image button.pform-btn-upload-grey.pform-rmv-header-img{
+      border: none;
+      color: #607988;
+      background-color: #f0f0f1;
+      text-decoration: underline;
+  }
+  div#wp-pf_email_custom_footer_content-media-buttons a{
+    display: none;
+  }
+  .pie-forms-settings .form-table td.forminp.forminp-checkbox{
+    padding-top: 0;
+  }
+  .pie-forms-settings#integrations .zapier-icon{
+    width: 100%;
+  }
